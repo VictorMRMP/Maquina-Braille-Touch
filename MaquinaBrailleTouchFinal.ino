@@ -4,7 +4,7 @@
 // Microcontrolador: ESP32S3
 // Comunicação: Porta USB HID
 // Versão: 3.0
-// Projeto: "Teclado Touch Braille para auxílio na alfabetização e navegação digital de deficientes visuais sensíveis ao toque e/ou com limitações motoras", realizado para o Trabalho de Conclusão de Curso para o curso de Engenharia Elétrica com ênfase em eletrônica
+// Projeto: "Teclado Touch Braille para auxílio na alfabetização e navegação digital de deficientes visuais sensíveis ao toque e/ou com limitações motoras", realizado para o Trabalho de Conclusão de Curso para o curso de Engenharia Elétrica com ênfase em eletrônica da Universidade de São Paulo(USP) do Departamento de Engenharia Elétrica e Computação de São Carlos(SEL)
 // =======================================================================
 
 #include <map>
@@ -211,3 +211,4 @@ void processAux(void *pvParameters) {
         vTaskDelay(100 / portTICK_PERIOD_MS);
     }
 }
+
